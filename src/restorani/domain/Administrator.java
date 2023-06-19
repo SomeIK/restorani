@@ -9,7 +9,9 @@ import java.util.Objects;
 public class Administrator {
     
     private Long id;
-
+    private String mail;
+    private String password;
+    
     public Long getId() {
         return id;
     }
@@ -17,8 +19,7 @@ public class Administrator {
     public void setId(Long id) {
         this.id = id;
     }
-    private String mail;
-    private String password;
+    
 
     public Administrator() {
     }

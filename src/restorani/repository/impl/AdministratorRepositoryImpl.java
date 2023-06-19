@@ -3,14 +3,14 @@ package restorani.repository.impl;
 import java.util.List;
 import restorani.database.DataBase;
 import restorani.domain.Administrator;
-import restorani.repository.AdministratroRepository;
 import java.sql.*;
+import restorani.repository.AdministratorRepository;
 
 /**
  *
  * @author something
  */
-public class AdministratorRepositoryImpl implements AdministratroRepository {
+public class AdministratorRepositoryImpl implements AdministratorRepository {
 
     private final DataBase db = DataBase.getInstance();
 

@@ -1,10 +1,15 @@
 package restorani.form;
 
+import restorani.database.DataBase;
+
 /**
  *
  * @author something
  */
 public class LoginForm extends javax.swing.JFrame {
+    
+    private final DataBase db=DataBase.getInstance();
+    
 
     /**
      * Creates new form LoginForm
@@ -86,6 +91,7 @@ public class LoginForm extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
+        
         
     }//GEN-LAST:event_btnLoginActionPerformed
 
